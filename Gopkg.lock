@@ -376,6 +376,32 @@
   revision = "edce558372380347c6fef147e62f5559a9f8413d"
 
 [[projects]]
+  digest = "1:bc7d9a368d26d77ba3914fa9ff68d8539a3a9c7537db217ea71fb9df27234137"
+  name = "github.com/cockroachdb/errors"
+  packages = [
+    ".",
+    "assert",
+    "barriers",
+    "domains",
+    "errbase",
+    "errorspb",
+    "errutil",
+    "hintdetail",
+    "issuelink",
+    "markers",
+    "report",
+    "safedetails",
+    "secondary",
+    "stdstrings",
+    "telemetrykeys",
+    "testutils",
+    "withstack",
+  ]
+  pruneopts = "UT"
+  revision = "52fe544bfc33f7d0e545d4e95f681eac29377a42"
+  version = "v1.0.2"
+
+[[projects]]
   digest = "1:cd936a7edd1897083994b6d397f9c975a5a8dc58e845f0cf3d1e5cf4717b918b"
   name = "github.com/cockroachdb/gostdlib"
   packages = [
@@ -1860,6 +1886,12 @@
     "github.com/cockroachdb/cockroach-go/crdb",
     "github.com/cockroachdb/crlfmt",
     "github.com/cockroachdb/datadriven",
+    "github.com/cockroachdb/errors",
+    "github.com/cockroachdb/errors/assert",
+    "github.com/cockroachdb/errors/errbase",
+    "github.com/cockroachdb/errors/issuelink",
+    "github.com/cockroachdb/errors/markers",
+    "github.com/cockroachdb/errors/testutils",
     "github.com/cockroachdb/gostdlib/cmd/gofmt",
     "github.com/cockroachdb/gostdlib/x/tools/cmd/goimports",
     "github.com/cockroachdb/returncheck",
